@@ -1,0 +1,291 @@
+/* Style pour la barre de navigation */
+nav {
+  background-color: #FF0000;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+nav img {
+    width: 100px;
+    height: 80px;
+  }
+  
+nav a:hover {
+  color: #f2f2f2;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav .logo {
+  font-size: 3px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Style de base pour le corps de la page */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Style pour la bannière publicitaire */
+.banner {
+  background-color: #008000;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+.product-details img {
+    width: 100px;
+    height: 100px;
+}
+.products img {
+    width: 150px;
+    height: 150px;
+  }
+.products li{
+    list-style-type: none;
+}
+/* Style pour les titres de section */
+section h2 {
+  font-size: 28px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Style pour les listes de produits */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 960px;
+  list-style-type: none;
+}
+
+.product-list li {
+  flex-basis: calc(33.33% - 20px);
+  margin: 10px;
+  text-align: center;
+ 
+  list-style-type: none;
+}
+
+.product-list li img {
+  max-width: 100%;
+}
+
+
+/* Style pour le pied de page */
+footer img {
+    width: 100px;
+    height: 80px;
+  }
+footer {
+    
+  background-color: #f2f2f2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+footer .logo {
+  flex-basis: 2px;
+  margin-right: 2px;
+}
+
+footer nav {
+  flex-basis: 400px;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer nav li {
+  margin: 0 10px;
+}
+
+/* Style pour les icônes de réseaux sociaux */
+.social-media a {
+  color: #0066cc;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+/* met en forme le pied de page */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  footer nav li {
+    margin-left: 20px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+/* centrer le formulaire */
+form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  /* style des labels et des inputs */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+  
+  /* style du bouton de connexion */
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  /* lien pour créer un compte */
+  p a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+  /* centrer le formulaire */
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* style des labels et des inputs */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  padding: 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+/* style du bouton de création de compte */
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* lien pour se connecter */
+p a {
+  color: #333;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 50px auto;
+  }
+  
+  thead th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  tbody td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  tfoot td {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
